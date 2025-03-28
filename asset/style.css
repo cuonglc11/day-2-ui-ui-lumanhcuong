@@ -35,6 +35,10 @@ body {
     font-size: 16px;
 }
 
+.menu-icon-mobile {
+    display: none;
+}
+
 .button-group {
     display: flex;
     gap: 28px;
@@ -117,6 +121,7 @@ body {
     flex: 1;
 }
 
+
 .group-form button {
     height: 41px;
     width: 172px;
@@ -143,6 +148,7 @@ body {
     display: flex;
     gap: 12px;
     width: 12rem;
+    align-items: anchor-center;
 }
 
 .item-content p {
@@ -189,6 +195,7 @@ footer {
     display: flex;
     padding: 0 10rem;
     justify-content: space-between;
+    margin-bottom: 12px;
 }
 
 .footer-left {
@@ -212,6 +219,10 @@ footer {
     color: #3D3D3D;
     text-decoration: none;
     font-size: 18px;
+}
+
+.list-menu-mobile {
+    display: none;
 }
 
 .footer-right {
@@ -251,129 +262,72 @@ footer {
     height: 33px;
 }
 
-@media (max-width: 768px) {
-    .banner {
-        margin: 0 auto;
-        margin-top: 27px;
-        display: flex;
-        flex-direction: column;
-        padding: 5px;
-    }
 
-    .content-banner {
-        width: 100%;
-    }
-
-    .content-banner h1 {
-        font-size: 31px;
-    }
-
-    .list {
-        margin: 0 auto;
-        margin-top: 27px;
-        display: grid;
-        padding: 0;
-        grid-template-columns: auto;
-    }
-
-    footer {
-        margin: 0 auto;
-        margin-top: 91px;
-        display: flex;
-        flex-direction: column;
-        padding: 12px;
-        width: 100%;
-        justify-content: space-between;
-    }
-
-    .menu nav,
-    .button-group {
-        display: none;
-    }
-
-    .item-content p {
-        text-align: justify;
-        margin-top: 0px;
-    }
-
-    .banner-right img {
-        width: 21rem;
-        margin-top: 58px;
-    }
-
-    .footer-right-top p {
-        color: black;
-        font-size: 16px;
-        font-weight: bold;
-        text-align: start;
-    }
-
-    .footer-right-bottom {
-        display: flex;
-        justify-content: flex-start;
-        gap: 24px;
-        margin-top: 12px;
-    }
+/* .menu {
+    justify-content: space-between;
 }
 
-@media  (min-width: 769px) and (max-width: 1024px) {
-    .banner {
-        margin: 0 auto;
-        margin-top: 27px;
-        display: flex;
-        justify-content: space-around;
-        flex-direction: row;
-        padding: 0 3rem;
-    }
+.menu-icon-mobile {
+    display: inline;
+    padding-top: 12px;
+}
 
-    .banner-right img {
-        width: 16rem;
-        margin-top: 58px;
-    }
+.content-banner {
+    width: 100%;
+}
 
-    .button-group {
-        display: none;
-    }
+.content-banner h1 {
+    font-size: 31px;
+}
 
-    .list {
-        margin: 0 auto;
-        margin-top: 27px;
-        display: grid;
-        padding: 0;
-        grid-template-columns: auto auto auto;
-    }
+.list {
+    margin: 0 auto;
+    margin-top: 27px;
+    display: grid;
+    padding: 0;
+    grid-template-columns: auto;
+}
 
-    footer {
-        margin: 0 auto;
-        margin-top: 91px;
-        display: flex;
-        flex-direction: row;
-        padding: 12px;
-        width: 100%;
-        justify-content: space-between;
-    }
+footer {
+    margin: 0 auto;
+    margin-top: 91px;
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    width: 100%;
+    justify-content: space-between;
+}
 
-    footer {
-        margin: 0 auto;
-        margin-top: 91px;
-        display: flex;
-        flex-direction: row;
-        padding: 0px;
-        width: 100%;
-        justify-content: space-between;
-    }
+.menu nav,
+.button-group {
+    display: none;
+}
 
-    .footer-right {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        padding-right: 31px;
-    }
+.item-content p {
+    text-align: justify;
+    margin-top: 0px;
+}
 
-    .footer-left {
-        display: flex;
-        flex-direction: column;
-        gap: 24px;
-        margin-left: 23px;
-    }
+.banner-right img {
+    width: 21rem;
+    margin-top: 58px;
+}
+
+.footer-right-top p {
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: start;
+}
+
+.footer-right-bottom {
+    display: flex;
+    justify-content: flex-start;
+    gap: 24px;
+    margin-top: 12px;
+} */
+
+ul li a:hover {
+    color: red;
+    font-weight: bold;
 }
