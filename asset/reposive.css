@@ -16,17 +16,25 @@
     }
 
     .group-form {
-        width: 96%;
+        width: 100%;
     }
 
     .banner-right img {
         margin-top: 8rem;
-        width: 23rem;
+        width: 100%;
     }
 
     .menu {
         display: flex;
         justify-content: space-between;
+    }
+
+    .content-banner {
+        width: 100%;
+        /* height: 22rem; */
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
     }
 
     .list-menu-mobile {
@@ -107,8 +115,13 @@
     }
 
     .banner-right img {
-        width: 16rem;
+        width: 100%;
         margin-top: 58px;
+        margin-left: 2rem;
+    }
+
+    .content-banner h1 {
+        font-size: 31px;
     }
 
     .button-group {
